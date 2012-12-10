@@ -1,4 +1,5 @@
 begin
+  require 'bundler/setup'
   require 'trinidad'
 rescue LoadError => e
   require('rubygems') && retry
